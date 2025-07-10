@@ -1,4 +1,4 @@
-import ProjectsPic from "./projectsPic"
+import ProjectsPic from "./ProjectsPic"
 import ProjectsText from "./ProjectsText"
 import { motion } from "motion/react"
 import { fadeIn } from "../../framerMotion/variants"
