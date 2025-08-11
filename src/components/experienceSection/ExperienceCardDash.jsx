@@ -10,7 +10,7 @@ const ExperienceCardDash = () => {
                 <div className="p-4 text-left border-[2px] border-dashed border-orange rounded-xl">
                     <h3 className="font-bold text-cyan">Front-End Developer</h3>
                     <h4 className="text-orange">Alex Apps</h4>
-                    <h5 className="mb-3 text-lightGrey">2022 - Present</h5>
+                    <h5 className="mb-3 text-lightGrey">2023 - Present</h5>
                     <ul className="pl-4 list-disc">
                         <li>Implementing reusable components.</li>
                         <li>Participating in large scale application.</li>
@@ -29,7 +29,7 @@ const ExperienceCardDash = () => {
                 <div className="p-4 text-left border-[2px] border-dashed border-orange rounded-xl">
                     <h3 className="font-bold text-cyan">Course Instructor</h3>
                     <h4 className="text-orange">Nucamp</h4>
-                    <h5 className="mb-3 text-lightGrey">2023 - Present</h5>
+                    <h5 className="mb-3 text-lightGrey">2024 - Present</h5>
                     <ul className="pl-4 list-disc">
                         <li>Explaining and facilitating web development concepts.</li>
                         <li>Help students with their assignments and grade them weekly.</li>
@@ -46,7 +46,7 @@ const ExperienceCardDash = () => {
                 <div className="p-4 text-left border-[2px] border-dashed border-orange rounded-xl">
                     <h3 className="font-bold text-cyan">Course Instructor</h3>
                     <h4 className="text-orange">Sprints</h4>
-                    <h5 className="mb-3 text-lightGrey">2024 - Present</h5>
+                    <h5 className="mb-3 text-lightGrey">2025 - Present</h5>
                     <ul className="pl-4 list-disc">
                         <li>Teaching JavaScript, React and TailwindCSS.</li>
                         <li>Participating in preparing course materials.</li>

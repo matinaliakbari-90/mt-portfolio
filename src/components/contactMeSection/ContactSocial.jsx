@@ -25,15 +25,15 @@ const ContactSocial = () => {
     const socialLinks = [
         {
             icon: <FaLinkedinIn />,
-            url: "#",
+            url: "https://www.linkedin.com/in/matinaliakbari/",
         },
         {
             icon: <RiGithubLine />,
-            url: "#",
+            url: "https://github.com/matinaliakbari-90",
         },
         {
             icon: <FaInstagram />,
-            url: "#",
+            url: "https://www.instagram.com/matin_aliakbari.tsx",
         },
     ];
 
@@ -56,7 +56,7 @@ const ContactSocial = () => {
             <div className="mt-14 lg:mt-12">
                 <div className="flex gap-x-5 max-w-[50%] md:max-w-[40%] lg:max-w-none lg:ml-5 mx-auto">
                     {socialLinks.map((socialLink, index) => (
-                        <a key={index} className="p-3 text-2xl border rounded-full cursor-pointer border-orange text-orange">
+                        <a key={index} href={socialLink.url} className="p-3 text-2xl border rounded-full cursor-pointer border-orange text-orange">
                             {socialLink.icon}
                         </a>
                     ))}

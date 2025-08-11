@@ -15,6 +15,10 @@ const ProjectsMain = () => {
             <div>
                 <ProjectsPic />
             </div>
+
+            <div className="my-20 text-2xl font-bold text-center">
+                <a className="transition-colors border-b-2 hover:text-cyan" href="https://github.com/matinaliakbari-90">All Projects</a>
+            </div>
         </section>
     )
 }

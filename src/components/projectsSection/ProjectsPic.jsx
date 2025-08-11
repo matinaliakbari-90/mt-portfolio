@@ -6,31 +6,35 @@ const ProjectsPic = () => {
     const projects = [
         {
             id: 1,
-            title: "Vacation of Africa",
-            date: "Mar2022",
+            title: "Ecommerce Blue Berry",
+            date: "Mar2024",
             image: "website-img-1.jpg",
             align: "left",
+            link: "https://blue-berry-ecommerce.vercel.app"
         },
         {
             id: 2,
-            title: "Moola App",
-            date: "Sept2022",
+            title: "Code Tutor",
+            date: "Sept2023",
             image: "website-img-2.webp",
             align: "right",
+            link: "https://code-tutor-mt.vercel.app"
         },
         {
             id: 3,
-            title: "Tourzania",
+            title: "Foodie Zone",
             date: "Jan2023",
             image: "website-img-3.jpg",
             align: "left",
+            link: "https://foodie-zone-mt.vercel.app/"
         },
         {
             id: 4,
-            title: "Bank of Luck",
-            date: "May2024",
+            title: "Weather App",
+            date: "Jul2025",
             image: "website-img-4.jpg",
             align: "right",
+            link: "https://matin-weather-app.vercel.app"
         },
     ];
 
@@ -65,7 +69,7 @@ const ProjectsPic = () => {
                         <div className={`sm:text-center ${project.align === "right" ? "md:text-right" : "md:text-left"} sm:mt-8 sm:mb-16 md:mt-0 md:mb-0`}>
                             <h3 className="text-2xl text-orange md:text-3xl">{project.title}</h3>
                             <h4 className="text-xl font-light">{project.date}</h4>
-                            <a className={`flex items-center justify-center gap-2 text-lg transition-all duration-500 cursor-pointer ${project.align === "right" ? "md:justify-end" : "md:justify-start"} text-cyan hover:text-orange`}>
+                            <a href={project.link} className={`flex items-center justify-center gap-2 text-lg transition-all duration-500 cursor-pointer ${project.align === "right" ? "md:justify-end" : "md:justify-start"} text-cyan hover:text-orange`}>
                                 View
                                 <ViewIcon />
                             </a>
