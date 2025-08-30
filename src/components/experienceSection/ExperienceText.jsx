@@ -5,7 +5,7 @@ const ExperienceText = () => {
             <div className="mt-6 space-x-7">
                 <span className="text-6xl font-bold text-cyan">2</span>
                 <span className="text-6xl font-bold text-lightBrown">-</span>
-                <span className="text-6xl font-bold text-cyan">23</span>
+                <span className="text-6xl font-bold text-cyan">18</span>
             </div>
             <div className="relative space-x-10 bottom-4">
                 <span className="text-xl font-bold uppercase text-lightGrey">Years</span>
