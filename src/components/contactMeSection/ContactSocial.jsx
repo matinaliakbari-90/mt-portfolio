@@ -10,7 +10,7 @@ const ContactSocial = () => {
     const contactItems = [
         {
             icon: <MdOutlineEmail />,
-            text: "matin54843590@gmail.com",
+            text: "matin.aliakbari.90@gmail.com",
         },
         {
             icon: <LuPhone />,
@@ -18,7 +18,7 @@ const ContactSocial = () => {
         },
         {
             icon: <IoLocationOutline />,
-            text: "Kashan, Isfahan, Iran",
+            text: "Kashan, Iran",
         },
     ];
 

@@ -16,7 +16,7 @@ const ProjectsMain = () => {
                 <ProjectsPic />
             </div>
 
-            <div className="my-20 text-2xl font-bold text-center">
+            <div className="my-20 text-[19px] font-bold text-center md:text-2xl">
                 <a className="transition-colors border-b-2 hover:text-cyan" href="https://github.com/matinaliakbari-90">All Projects</a>
             </div>
         </section>
