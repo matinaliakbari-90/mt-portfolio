@@ -6,6 +6,6 @@
 
 @layer base {
   body {
-    @apply bg-darkBrown
+    @apply bg-darkBrown scroll-smooth
   }
 }
